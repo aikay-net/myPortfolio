@@ -12,11 +12,11 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 3% 2%;
+    margin: 20px 50px;
 }
 .navigation {
     display:flex;
-    gap: 50%;
+    gap: 50px;
 }
 .link{
     text-decoration: none;
@@ -31,10 +31,10 @@ a:hover{
 .contact{
     background: linear-gradient(to right,orange,gold);
     color:black;
-    padding: 10% 10%;
+    padding: 10px 10px;
     cursor:pointer;
-    font-size: 1.5em;
-    border-radius: 15%;
+    font-size: 20px;
+    border-radius: 5px;
     font-weight: bold;
 }
 
