@@ -1,0 +1,103 @@
+body{
+    background: linear-gradient(to right,gold,#0D0D1A);
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 50px;
+}
+.navigation {
+    display:flex;
+    gap:50px;
+}
+.contact{
+    background: linear-gradient(to right,orange,gold);
+    color:black;
+    padding: 10px 20px;
+    cursor:pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.logo{
+    mix-blend-mode: multiply;
+}
+.link{
+    text-decoration: none;
+    color:orangered;
+    font-weight: bold;
+    transition:color 0.3s ease-in-out;
+    font-family: Georgia;
+}
+
+img{
+    mix-blend-mode: multiply;
+}
+
+.card{
+    font-family: cursive;
+    border:solid 1px white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: red;
+    margin-top: 5%;
+    width: 75vw;
+    box-shadow: 0 5px 10px rgba(0,0,0,5);
+}
+
+.card2{
+    font-family: cursive;
+    border:solid 1px rgb(85, 83, 83);
+    border-radius: 10px;
+    text-align: center;
+    background-color: red;
+    margin-top: 5%;
+    width:75vw;
+    height: 20vw;
+    margin-bottom: 5%;
+    box-shadow: 0 5px 10px rgba(0,0,0,5);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    font-family: cursive;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+textarea{
+    width: 50vw;
+    height: 50%;
+    background-color: gray;
+}
+
+button{
+    background-color: orange;
+    font-family: cursive;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+}

@@ -1,0 +1,106 @@
+body{
+    background: linear-gradient(to right,gold,#0D0D1A);
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:3% 2%;
+}
+.navigation {
+    display:flex;
+    gap:50%;
+}
+.contact{
+    background: linear-gradient(to right,orange,gold);
+    color:black;
+    padding: 10% 10%;
+    cursor:pointer;
+    font-size: 1.5em;
+    border-radius: 15%;
+    font-weight: bold;
+}
+.logo{
+    mix-blend-mode: multiply;
+}
+.link{
+    text-decoration: none;
+    color:orangered;
+    font-weight: bold;
+    transition:color 0.3s ease-in-out;
+    font-family: Georgia;
+}
+
+h1{
+    text-align: center;
+}
+
+.about{
+    border: 1px, solid, white;
+    background-color: red;
+    border-radius: 10px;
+    font-family: arial;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,5);
+}
+
+.skills{
+    border: 1px, solid, white;
+    background-color: red;
+    border-radius: 10px;
+    font-family: arial;
+    text-align: center;
+    margin-top: 5%;
+    box-shadow: 0 5px 10px rgba(0,0,0,5);
+}
+
+.tools{
+    border: 1px, solid, white;
+    background-color: red;
+    border-radius: 10px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 5%;
+    box-shadow: 0 5px 10px rgba(0,0,0,5);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.facts{
+    border: 1px, solid, white;
+    background-color: red;
+    border-radius: 10px;
+    font-family: arial;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 5px 10px rgba(0,0,0,5);
+}
+
+img{
+    mix-blend-mode: multiply;
+}
+
+footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    font-family: arial;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
