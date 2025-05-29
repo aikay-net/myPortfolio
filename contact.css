@@ -32,7 +32,7 @@ body{
     color:orangered;
     font-weight: bold;
     transition:color 0.3s ease-in-out;
-    font-family: Georgia;
+    font-family: arial;
 }
 
 img{
@@ -40,7 +40,7 @@ img{
 }
 
 .card{
-    font-family: cursive;
+    font-family: arial;
     border:solid 1px white;
     border-radius: 10px;
     text-align: center;
@@ -51,7 +51,7 @@ img{
 }
 
 .card2{
-    font-family: cursive;
+    font-family: arial;
     border:solid 1px rgb(85, 83, 83);
     border-radius: 10px;
     text-align: center;
@@ -73,7 +73,7 @@ footer{
     background-color: black;
     color: antiquewhite;
     text-align: center;
-    font-family: cursive;
+    font-family: arial;
     font-size: small;
     margin-bottom: 0;
 }
@@ -96,7 +96,7 @@ textarea{
 
 button{
     background-color: orange;
-    font-family: cursive;
+    font-family: arial;
     color: black;
     border: 1px solid white;
     border-radius: 5px;
